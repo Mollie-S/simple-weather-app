@@ -1,0 +1,37 @@
+/* COLORS
+baby blue - #84D2F6
+queen blue #386FA4
+baby powder - #FFFFFA
+box text  - prussian blue - #112A46 */
+
+
+body {
+  color: #FFFFFA;
+  background: linear-gradient(to bottom right, #386FA4, #84D2F6);
+  background-attachment: fixed;
+  width: 100%;
+}
+h1 {
+  text-align: center;
+}
+
+.container-cities {
+  display: flex;
+  justify-content: space-around;
+
+}
+.container-cities h4 {
+  text-align: center;
+
+}
+
+.city1, .city2, .city3, .city4, .city5 {
+  box-sizing: border-box;
+  color: #112A46;
+  width: 150px;
+  height: 200px;
+  background: #FFFFFA;
+  border: 1px solid #112A46;
+  margin: 5px;
+  border-radius: 15px;
+}
