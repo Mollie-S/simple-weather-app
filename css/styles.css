@@ -48,11 +48,12 @@ li {
   margin: 5px;
   border-radius: 15px;
   box-shadow: 0 5px 10px rgba(17, 42, 70, 2);
-  transition: ease-out transform 0.8s ;
+  transition: ease-out transform  0.15s ;
 }
 
 .city1:hover, .city2:hover, .city3:hover {
   transform: scale(1.04);
+  color: #FFFFFA;
 }
 /* .city1-name:hover, .city2-name:hover, .city3-name:hover {
   color: #FFFFFA;
